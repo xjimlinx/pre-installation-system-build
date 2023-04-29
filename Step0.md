@@ -17,3 +17,5 @@ sudo apt install build-essential libncurses-dev bison flex libssl-dev libelf-dev
 ```bash
 sudo pacman -S base-devel bc libelf flex bison cmake inetutils xmlto
 ```
+
+## 下一步 [步骤一 编译Linux内核](./Step1.md)

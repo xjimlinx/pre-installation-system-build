@@ -18,3 +18,5 @@ https://github.com/AppImage/AppImageKit/wiki/FUSE
 ```bash
 sudo apt install libfuse2
 ```
+
+## 下一步 [步骤〇 编译环境的准备](./Step0.md)
