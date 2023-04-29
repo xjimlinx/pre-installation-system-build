@@ -1,11 +1,19 @@
-# 步骤一 编译Linux内核
+# 步骤一 编译 Linux 内核
+
+如若需要返回主页，请点击这里：
+[预安装系统的构建](./README.md)
+
+如果还没配置好编译环境请移步这里
+[步骤〇 编译环境准备](./Step0.md)
 
 ## 首先到官网下载内核源码
-[Linux Kernel官网](https://kernel.org/)
-![1682759867543](image/Step1/1682759867543.png)
-> 本例选择Linux 6.3的内核进行编译
 
-下载好后，双击压缩包进行解压（亦可在命令行中使用tar命令解压）
+[Linux Kernel 官网](https://kernel.org/)
+![1682759867543](image/Step1/1682759867543.png)
+
+> 本例选择 Linux 6.3 的内核进行编译
+
+下载好后，双击压缩包进行解压（亦可在命令行中使用 tar 命令解压）
 
 ```bash
 tar -xvJf xxx.tar.xz
@@ -16,14 +24,14 @@ tar -xvJf xxx.tar.xz
 如图所示，左边的文件夹为解压后的文件夹，右边的为压缩包
 以上应该算是废话
 
-打开命令行（linux下的快捷键通常是Ctrl + Alt + T）
-记忆方式就是 T 是Terminal的开头
+打开命令行（linux 下的快捷键通常是 Ctrl + Alt + T）
+记忆方式就是 T 是 Terminal 的开头
 
-``` bash
+```bash
 cd <LinuxKernelSourceDir>
 ```
 
-LinuxKernelSourceDir 为你解压的linux源码的文件夹
+LinuxKernelSourceDir 为你解压的 linux 源码的文件夹
 
 ```bash
 export ARCH=x86_64
@@ -51,3 +59,6 @@ make -jx
 
 接下来可以离开电脑休息一会儿或者玩你的其他电子设备或者看书
 总之就是先去干别的事情，编译这个东西需要一定时间
+实测我编译这个默认配置用了 7 分钟多一些
+
+![1682762189134](image/Step1/1682762189134.png)
