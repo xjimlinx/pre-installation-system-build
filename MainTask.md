@@ -96,7 +96,7 @@ chroot [NewRootDir] /usr/sbin/chroot [要切换的目录] [要运行的命令]
 
 [Linux 官网关于 initrd 的手册](https://www.kernel.org/doc/html/latest/admin-guide/initrd.html)
 
-[Debian 官方关于 Debootstrap 的 Wiki](https://wiki.debian.org/Debootstrap)
+[Debian 官方关于 Debootstrap 的 Wiki](https://wiki.debian.org/zh_CN/Debootstrap)
 
 [Debian 官方说明文档](https://www.debian.org/doc/index.zh-cn.html)
 
