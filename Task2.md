@@ -3,11 +3,11 @@
 如若需要返回主页，请点击这里：
 [预安装系统的构建](./README.md)
 
-## 1. 配置代理环境
+## 2. 配置代理环境
 
-### 1.1 下载 Qv2ray.Appimage
+### 2.1 下载 Qv2ray.Appimage
 
-#### 1.1.1 Ubuntu 下使用 Appimage 可能会报错
+#### 2.1.1 Ubuntu 下使用 Appimage 可能会报错
 
 根据 Appimage 官网的 Wiki：
 https://github.com/AppImage/AppImageKit/wiki/FUSE
