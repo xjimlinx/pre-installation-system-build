@@ -49,6 +49,16 @@ make menuconfig
 # 在上一步基础上配置要编译的内核的一些选项
 ```
 
+这边注意要添加对块设备的支持
+在界面中，选择General setup
+然后在进去的界面里选择 Initial RAM filesystem and RAM disk (initramfs/initrd) support
+
+接着退出来到主界面，选择Device Drivers
+选择Block Devices, 勾选其RAM block device support选项
+并在其子项 Default RAM disk size 写入65536
+接着保存退出
+
+
 ```bash
 make
 # 编译

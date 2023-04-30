@@ -207,9 +207,12 @@ sudo bash ./mkinitramfs.sh Bookworm rootfs.cpio.gz
 注意本例的 Debian 目录位于家目录下，
 编译的内核位于如下位置
 这里的 xein 是我的用户名，不要产生不必要的误会
+
 去你当时解压 Linux 源码并编译 linux 源码的地方按这个结构找到你编译的内核
 
 ![1682770099043](image/Step2.1/1682770099043.png)
+
+然后回到Debian目录下
 
 先看看当前目录是不是要的位置
 
@@ -220,8 +223,10 @@ sudo bash ./mkinitramfs.sh Bookworm rootfs.cpio.gz
 在命令行内，输入如下命令（我假设你已经在命令行里进入了 Debian 目录）
 
 ```bash
-qemu-system-x86_64  -kernel bzImage -initrd rootfs.cpio.gz  /dev/zero -m 2G -append "console=ttyS0"
+qemu-system-x86_64  -kernel bzImage -initrd rootfs.cpio.gz  /dev/zero -m 2G -append "console=ttyS0" -nographic
 ```
+
+如果遇到不能启动的情况，可以根据qemu中的报错信息进行修改，其中2G可能需要改大一点
 
 ![1682773024688](image/Step2.1/1682773024688.png)
 
