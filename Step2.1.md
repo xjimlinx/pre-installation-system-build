@@ -198,6 +198,7 @@ sudo bash ./mkinitramfs.sh Bookworm rootfs.cpio.gz
 [步骤一 编译 Linux 内核](./Step1.md)
 
 目录结构应该是在你解压的文件夹里的如下图所示的位置
+如果是Debian系请复制x86_64同级目录下的x86对应的bzImage
 ![1682769813774](image/Step2.1/1682769813774.png)
 
 我们将该文件复制到 Debian 目录下

@@ -84,5 +84,6 @@ make mrproper
 编译好的镜像在如下位置
 
 ![1682769835434](image/Step1/1682769835434.png)
+**注意：在Debian系发行版里面，此处提供的是x86_64同级目录下的另一个文件夹x86里的boot的bzImage的链接，如果使用的是Debian系，则在下一步使用的时候记得复制x86对应的bzImage而不是此处的bzImage**
 
 ## 下一步 [步骤一 构建 Debian 预安装系统](./Step2.1.md)
